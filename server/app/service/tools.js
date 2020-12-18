@@ -1,13 +1,13 @@
 'use strict';
 const { Service } = require('egg');
 const nodemailer = require('nodemailer');
-const userEmail = '747726748@qq.com';
+const userEmail = '';
 const transporter = nodemailer.createTransport({
   service: 'QQ',
   secureConnection: true, // 安全连接
   auth: {
     user: userEmail,
-    pass: 'yppdzbbjoqpbbaij',
+    pass: '',
   },
 });
 
