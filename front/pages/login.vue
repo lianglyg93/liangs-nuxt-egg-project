@@ -48,7 +48,7 @@
       <el-form-item>
         <!-- <button @click.prevent></button> -->
         <el-button type="primary" @click.native.prevent="handleLogin"
-          >注册</el-button
+          >登录</el-button
         >
       </el-form-item>
     </el-form>
