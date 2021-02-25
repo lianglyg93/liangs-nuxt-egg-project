@@ -4,10 +4,7 @@ const { Service } = require('egg');
 const path = require('path');
 const fse = require('fs-extra');
 const nodemailer = require('nodemailer');
-<<<<<<< HEAD
 
-=======
->>>>>>> 5595c399684ba14ea4c75ef346d577b65aa52d38
 const userEmail = '';
 const transporter = nodemailer.createTransport({
   service: 'QQ',
